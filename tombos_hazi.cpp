@@ -20,7 +20,7 @@ int main(){
 	if (max_search(elements, max_val))
 		cout << "Found a most common number!\nThe number is: " << max_val;
 	else
-		cout << "Sadly, I couldn't find a single number :(\n";
+		cout << "Sorry, I couldn't find a single number :(\n";
 }
 
 vector<int> load_file(const string& _filename) {
