@@ -32,7 +32,7 @@ vector<int> load_file(const string& _filename) {
 	}
 	int data;
 	while (_inputf >> data) {
-		cout << data << ' ';
+		//cout << data << ' ';
 		_vec.push_back(data);
 	}
 	_inputf.close();
